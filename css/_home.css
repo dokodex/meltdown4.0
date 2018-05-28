@@ -1,0 +1,69 @@
+.section{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  display: none;
+}
+
+.home{
+  background: url('../img/hero.jpg') no-repeat;
+  background-size:auto auto;
+  height: 100vh;
+  margin: auto;
+  max-width: var(--grid);
+  padding-top: 8rem;
+  position: relative;
+  z-index: 5;
+}
+
+.home__grid{
+  display: grid;
+  grid-auto-rows: 60% 40%;
+  height: 100%;
+  text-align: center;
+}
+
+.home__head{
+  height: 100%;
+}
+
+.home__logo{
+  filter: drop-shadow(0 0mm 1mm rgb(105,105,105));
+  width: 90%;
+}
+
+.home__subtitle{  
+  color: white;
+  filter: drop-shadow(0 0mm 1mm rgb(105,105,105));
+  font-family: var(--font-family-danger);
+  font-size: 1rem;
+}
+
+@media only screen and (min-width:768px){
+  .home__subtitle{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width:1024px){
+  .home__logo{
+    width: 70%;
+  }
+
+  .home__subtitle{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width:1280px){
+  .home__logo{
+    width: 70%;
+  }
+  
+  .home__subtitle{
+    font-size: 2rem;
+  }
+}

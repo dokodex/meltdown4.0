@@ -1,0 +1,9 @@
+:root {
+  --font-family-danger: 'Another Danger', sans-serif;
+}
+
+@font-face{
+  font-family: 'Another Danger';
+  font-style: normal;
+  src: url('../typography/Another-Danger.ttf')  format('truetype');
+}
