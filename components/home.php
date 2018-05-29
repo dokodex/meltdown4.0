@@ -10,10 +10,10 @@
       </div>
     </div>
     <div class="home__rrss">
-      <a class="home__rrss__link" href="" target="_blank"><?php require_once('svg/facebook.svg'); ?></a>
-      <a class="home__rrss__link" href="" target="_blank"><?php require_once('svg/instagram.svg'); ?></a>
-      <a class="home__rrss__link" href="" target="_blank"><?php require_once('svg/spotify.svg'); ?></a>
-      <a class="home__rrss__link" href="" target="_blank"><?php require_once('svg/youtube.svg'); ?></a>
+      <a class="home__rrss__link" href="" target="_blank"><?php require('svg/facebook.svg'); ?></a>
+      <a class="home__rrss__link" href="" target="_blank"><?php require('svg/instagram.svg'); ?></a>
+      <a class="home__rrss__link" href="" target="_blank"><?php require('svg/spotify.svg'); ?></a>
+      <a class="home__rrss__link" href="" target="_blank"><?php require('svg/youtube.svg'); ?></a>
     </div>
     <div class="home__div-menu">
       <nav class="home__menu">
