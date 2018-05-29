@@ -3,6 +3,17 @@
     <div class="home__head">
       <img class="home__logo" src="img/meltdown-logos/meltdown-white.png" alt=""/>
       <h1 class="home__subtitle">Official Site</h1>
+      <div class="home__languages">
+        <a class="home__languages__link" href="">ESP |</a>
+        <a class="home__languages__link" href="">ENG |</a>
+        <a class="home__languages__link" href="">EUS</a>
+      </div>
+    </div>
+    <div class="home__rrss">
+      <a class="home__rrss__link" href="" target="_blank"><?php require_once('svg/facebook.svg'); ?></a>
+      <a class="home__rrss__link" href="" target="_blank"><?php require_once('svg/instagram.svg'); ?></a>
+      <a class="home__rrss__link" href="" target="_blank"><?php require_once('svg/spotify.svg'); ?></a>
+      <a class="home__rrss__link" href="" target="_blank"><?php require_once('svg/youtube.svg'); ?></a>
     </div>
     <div class="home__div-menu">
       <nav class="home__menu">
