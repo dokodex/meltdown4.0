@@ -1,6 +1,7 @@
 :root {
   --font-family-danger: 'Another Danger', sans-serif;
   --font-family-montserrat: 'Montserrat Bold', sans-serif;
+  --font-family-earth: 'Earth Orbiter', sans-serif;
 }
 
 @font-face{
@@ -13,4 +14,10 @@
   font-family: 'Montserrat Bold';
   font-style: normal;
   src: url('../typography/Montserrat-Bold.ttf')  format('truetype');
+}
+
+@font-face{
+  font-family: 'Earth Orbiter';
+  font-style: normal;
+  src: url('../typography/earthorbiter.ttf')  format('truetype');
 }
