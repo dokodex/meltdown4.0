@@ -4,4 +4,7 @@
   --color-red:rgba(215, 44, 44, 0.5);
   --color-black:black;
   --color-gray-dark:#333;
+  --color-red-youtube:#cc181e;
+  --color-green-spotify:#1db954;
+  --color-black-opacity:rgba(0, 0, 0, .95);
 }

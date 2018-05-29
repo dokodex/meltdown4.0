@@ -3,6 +3,7 @@
   --font-family-montserrat: 'Montserrat Bold', sans-serif;
   --font-family-earth: 'Earth Orbiter', sans-serif;
   --font-family-bebas: 'Bebas Neue', sans-serif;
+  --font-family-wensley: 'Wensley', sans-serif;
 }
 
 @font-face{
@@ -27,4 +28,10 @@
   font-family: 'Bebas Neue';
   font-style: normal;
   src: url('../typography/BebasNeue-Regular.ttf')  format('truetype');
+}
+
+@font-face{
+  font-family: 'Wensley';
+  font-style: normal;
+  src: url('../typography/Wensley.ttf')  format('truetype');
 }
