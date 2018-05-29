@@ -2,6 +2,7 @@
   --font-family-danger: 'Another Danger', sans-serif;
   --font-family-montserrat: 'Montserrat Bold', sans-serif;
   --font-family-earth: 'Earth Orbiter', sans-serif;
+  --font-family-bebas: 'Bebas Neue', sans-serif;
 }
 
 @font-face{
@@ -20,4 +21,10 @@
   font-family: 'Earth Orbiter';
   font-style: normal;
   src: url('../typography/earthorbiter.ttf')  format('truetype');
+}
+
+@font-face{
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  src: url('../typography/BebasNeue-Regular.ttf')  format('truetype');
 }
