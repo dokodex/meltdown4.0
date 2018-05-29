@@ -1,0 +1,108 @@
+.store-home--grid{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  max-width: var(--grid);
+  position: relative;
+  z-index: 5;
+}
+
+.store-home__head{
+  color: var(--color-black);
+  font-size: 2rem;
+  font-family: var(--font-family-danger);
+  padding: 3rem 2rem 0 2rem;
+  text-align: center;
+}
+
+
+.store-home__products--grid{
+  display: grid;
+  grid-template-columns:50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+  padding: 4rem 1rem 0 1rem;
+}
+
+.store-home__box{
+  background-color: var(--color-white);
+  box-shadow: 18px 40px 300px -41px rgba(133,116,116,1);
+  margin: 1px;
+  margin-top: -2.3rem;
+  text-align: center;
+  transition: all .3s;
+}
+
+.store-home__box--link{
+  text-decoration: none;
+}
+
+.store-home__box--link:hover > .store-home__box{
+
+  background-color: rgba(120, 120, 132, 1);
+}
+
+.store-home__box--link:hover > .store-home__info--grid{
+    transform: translate(0, -2.3rem);
+    visibility: visible;
+    z-index: 5;
+}
+
+.store-home__imgproduct{
+  filter: drop-shadow(0 0mm 1mm rgb(105,105,105));
+  width: calc(100vw/7)
+}
+
+.store-home__info--grid{
+  background-color: rgba(215, 131, 44, 0.8);
+  color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: var(--font-family-earth);
+  font-size: .7rem;
+  height: 2.3rem;
+  margin: 1px;
+  text-align: center;
+  text-decoration:none;
+  transition: transform .3s, visibility .3s, z-index.3s;
+  visibility: hidden;
+  z-index: -5;
+}
+
+.store-home__name{
+  padding-top: .8rem;
+}
+
+.store-home__price{
+  padding-top: .8rem;
+}
+
+@media only screen and (min-width:768px) {
+  .store-home__head{
+    font-size: 6rem;
+  }
+
+  .store-home__products--grid{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    padding: 6rem 10rem 2rem 10rem;
+  }
+}
+
+@media only screen and (min-width:1024px){
+  .store-home__head{
+    font-size: 8rem;
+  }
+  .store-home__products--grid{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    padding: 6rem 10rem 2rem 10rem;
+  }
+}
+
+@media only screen and (min-width:1280px) {
+  .store-home__products--grid{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    padding: 6rem 10rem 2rem 10rem;
+  }
+
+}

@@ -17,6 +17,7 @@
     
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/store.css" />
     <link rel="stylesheet" type="text/css" href="css/_fonts.css" />
     <link rel="stylesheet" type="text/css" href="css/_grid.css" />
     <link rel="stylesheet" type="text/css" href="css/_colors.css" />
